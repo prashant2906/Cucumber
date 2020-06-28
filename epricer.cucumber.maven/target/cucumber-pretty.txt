@@ -1,0 +1,224 @@
+Feature: Verify AP geo in production
+
+  @ProdSanityAP
+  Scenario: Test production IBM GUI flow for AP                                                      [90m# ProdRWTestcase_AP.feature:4[0m
+    [32mGiven [0m[32mClick on Prod Rewrite GUI link[0m                                                             [90m# Smoketest.click_on_Prod_Rewrite_GUI_link()[0m
+    [32mThen [0m[32mGUI home page should open[0m                                                                   [90m# Smoketest.GUI_home_page_should_open()[0m
+    [32mAnd [0m[32mClick on SelectARole dropdown and select TROOPPRV[0m[32m[1m1[0m[32m-AP OO on profit plan (V[0m[32m[1m1[0m[32m-Dummy-Singapore)[0m [90m# Smoketest.click_on_SelectARole_dropdown_and_select_TROOPPRV_AP_OO_on_profit_plan_V_Dummy_Singapore(int,int)[0m
+    [32mAnd [0m[32mClick on Start button[0m                                                                        [90m# Smoketest.Click_on_Start_button()[0m
+    [32mThen [0m[32mHome page should open[0m                                                                       [90m# Smoketest.Home_page_should_open()[0m
+    [32mAnd [0m[32mClick on Create quote button[0m                                                                 [90m# Smoketest.Click_on_Create_quote_button()[0m
+    [32mThen [0m[32mNew quote page should open for prod rw AP[0m                                                   [90m# Smoketest.new_quote_page_should_open_for_prod_rw_AP()[0m
+    [32mThen [0m[32mEnter QuoteTitle OppID OppOwnerName for AP /LA[0m                                              [90m# Smoketest.enter_QuoteTitle_OppID_OppOwnerNameAPLA()[0m
+    [32mAnd [0m[32mClick on Save and Continue[0m                                                                   [90m# Smoketest.click_on_Save_and_Continue()[0m
+    [32mThen [0m[32mOn Customer information page click on Add a new Customer[0m                                    [90m# Smoketest.on_Customer_information_page_click_on_Add_a_new_Customer()[0m
+    [32mThen [0m[32mEnter customer name[0m                                                                         [90m# Smoketest.enter_customer_name()[0m
+    [32mAnd [0m[32mClick on Save and Continue on customer tab[0m                                                   [90m# Smoketest.click_on_Save_and_Continue_on_customer_tab()[0m
+    [32mThen [0m[32mAdd product manually[0m                                                                        [90m# Smoketest.add_product_manually()[0m
+    [32mThen [0m[32mclick on collect pricing[0m                                                                    [90m# Smoketest.click_on_collect_pricing()[0m
+    [32mAnd [0m[32mClick on Save and Continue on Configuration tab[0m                                              [90m# Smoketest.click_on_Save_and_Continue_on_Configuration_tab()[0m
+    [32mThen [0m[32mClick on Request Approval and send the quote for approval[0m                                   [90m# Smoketest.click_on_Request_Approval_and_send_the_quote_for_approval()[0m
+    [32mThen [0m[32mVerify the status of the quote[0m                                                              [90m# Smoketest.verify_the_status_of_the_quote()[0m
+    [32mThen [0m[32mclose the window[0m                                                                            [90m# Smoketest.close_the_window()[0m
+    [32mWhen [0m[32mClick on Prod Rewrite GUI link[0m                                                              [90m# Smoketest.click_on_Prod_Rewrite_GUI_link()[0m
+    [32mThen [0m[32mGUI home page should open[0m                                                                   [90m# Smoketest.GUI_home_page_should_open()[0m
+    [32mAnd [0m[32mClick on SelectARole dropdown and select TRPRV[0m[32m[1m1[0m[32m-AP Pricer (V[0m[32m[1m1[0m[32m-Dummy-Singapore)[0m               [90m# Smoketest.click_on_SelectARole_dropdown_and_select_TRPRV_AP_Pricer_V_Dummy_Singapore(int,int)[0m
+    [32mAnd [0m[32mClick on Start button[0m                                                                        [90m# Smoketest.Click_on_Start_button()[0m
+    [32mAnd [0m[32mSearch for the quoteID from excel sheet for AP prod rw[0m                                       [90m# Smoketest.search_for_the_quoteID_from_excel_sheet_for_AP_prod_rw()[0m
+    [32mThen [0m[32mClick on Reviwer tab and add a reviwer[0m                                                      [90m# Smoketest.click_on_Reviwer_tab_and_add_a_reviwer()[0m
+    [32mThen [0m[32mClick on pricing tab[0m                                                                        [90m# Smoketest.click_on_pricing_tab()[0m
+    [32mThen [0m[32mApprove the quote using Approval tab for AP[0m                                                 [90m# Smoketest.approve_the_quote_using_Approval_tab_for_AP()[0m
+    [31mAnd [0m[31mVerify the quote status and check the reports[0m                                                [90m# Smoketest.verify_the_quote_status_and_check_the_reports()[0m
+      [31morg.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Command duration or timeout: 23 milliseconds
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+      Session ID: b9feaf3e-472b-419a-ab49-e9dd496e439d
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+      	at StepDef.Smoketest.verify_the_quote_status_and_check_the_reports(Smoketest.java:1013)
+      	at ✽.And Verify the quote status and check the reports(ProdRWTestcase_AP.feature:32)
+      Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+      Driver info: driver.version: unknown
+      	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+      	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+      	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+      	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+      	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+      [0m
+Feature: Verify BP PCS-NA SB in production
+
+  @ProdSanityPCS_SB
+  Scenario: Test production NA BP PCS_SB flow                                  [90m# ProdRWTestcase_BP_PCS_NA_SB.feature:4[0m
+    [32mGiven [0m[32mClick on PCS Prod rw link[0m                                            [90m# Smoketest.click_on_PCS_Prod_rw_link()[0m
+    [32mThen [0m[32mProd rw PCS page should open[0m                                          [90m# Smoketest.Prod_rw_PCS_page_should_open()[0m
+    [31mThen [0m[31mEnter all the details to rediect to IBM PCS page[0m                      [90m# Smoketest.Enter_all_the_details_to_rediect_to_IBM_PCS_page()[0m
+      [31morg.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.): To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+      *** Element info: {Using=css selector, value=select[name='SelectARole']}
+      Session ID: 1cc29ed7-8204-4f74-9a10-ece8983530bf
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+      	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+      	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+      	at StepDef.Smoketest.Enter_all_the_details_to_rediect_to_IBM_PCS_page(Smoketest.java:2364)
+      	at ✽.Then Enter all the details to rediect to IBM PCS page(ProdRWTestcase_BP_PCS_NA_SB.feature:8)
+      [0m
+    [36mThen [0m[36mGUI home page should open[0m                                             [90m# Smoketest.GUI_home_page_should_open()[0m
+    [36mAnd [0m[36mClick on SelectARole dropdown and select SP[0m[36m[1m1[0m[36m Maint - COV TR X[0m[36m[1m1[0m         [90m# Smoketest.click_on_SelectARole_dropdown_and_select_SP_Maint_COV_TR_X(int,int)[0m
+    [36mAnd [0m[36mClick on Start button[0m                                                  [90m# Smoketest.Click_on_Start_button()[0m
+    [36mThen [0m[36mHome page should open[0m                                                 [90m# Smoketest.Home_page_should_open()[0m
+    [36mAnd [0m[36mClick on Create quote button[0m                                           [90m# Smoketest.Click_on_Create_quote_button()[0m
+    [36mThen [0m[36mIn Overview tab enter the required details_SB[0m                         [90m# Smoketest.in_Overview_tab_enter_the_required_details_SB()[0m
+    [36mAnd [0m[36mClick on Save and Continue[0m                                             [90m# Smoketest.click_on_Save_and_Continue()[0m
+    [36mThen [0m[36mAdd product manually for PCS[0m                                          [90m# Smoketest.add_product_manually_for_PCS()[0m
+    [36mThen [0m[36mclick on collect pricing for PCS[0m                                      [90m# Smoketest.click_on_collect_pricing_for_PCS()[0m
+    [36mThen [0m[36mfill details inside Registration and customer tab for PCS[0m             [90m# Smoketest.fill_details_inside_Registration_and_customer_tab_for_PCS()[0m
+    [36mThen [0m[36min Details pricing tab click on Submit price request[0m                  [90m# Smoketest.in_Details_pricing_tab_click_on_Submit_price_request()[0m
+    [36mThen [0m[36minside submit and send popup enter email id and send email[0m            [90m# Smoketest.inside_submit_and_send_popup_enter_email_id_and_send_email()[0m
+    [36mThen [0m[36mclose the window[0m                                                      [90m# Smoketest.close_the_window()[0m
+    [36mWhen [0m[36mClick on Prod Rewrite GUI link[0m                                        [90m# Smoketest.click_on_Prod_Rewrite_GUI_link()[0m
+    [36mThen [0m[36mGUI home page should open[0m                                             [90m# Smoketest.GUI_home_page_should_open()[0m
+    [36mAnd [0m[36mClick on SelectARole dropdown and select X[0m[36m[1m1[0m[36m Channel Pricer[0m             [90m# Smoketest.click_on_SelectARole_dropdown_and_select_X_Channel_Pricer(int)[0m
+    [36mAnd [0m[36mClick on Start button[0m                                                  [90m# Smoketest.Click_on_Start_button()[0m
+    [36mAnd [0m[36mSearch for the quoteID from excel sheet for PCS NA BP prod rw[0m          [90m# Smoketest.search_for_the_quoteID_from_excel_sheet_for_PCS_NA_BP_prod_rw()[0m
+    [36mThen [0m[36mClick on comments and status and remove the quote from on hold status[0m [90m# Smoketest.click_on_comments_and_status_and_remove_the_quote_from_on_hold_status()[0m
+    [36mThen [0m[36mClick on pricing tab and approve the quote[0m                            [90m# Smoketest.click_on_pricing_tab_and_approve_the_quote()[0m
+    [36mThen [0m[36mverify reports for BP[0m                                                 [90m# Smoketest.verify_reports_for_BP()[0m
+Feature: Verify EMEA geo in production
+
+  @ProdSanityEMEA
+  Scenario: Test production IBM GUI flow for EMEA                                                           [90m# ProdRWTestcase_EMEA.feature:4[0m
+    [32mGiven [0m[32mClick on Prod Rewrite GUI link[0m                                                                    [90m# Smoketest.click_on_Prod_Rewrite_GUI_link()[0m
+    [32mThen [0m[32mGUI home page should open[0m                                                                          [90m# Smoketest.GUI_home_page_should_open()[0m
+    [32mAnd [0m[32mClick on SelectARole dropdown and select EU Transaction Quotes GTS Opportunity Owner ZZ[0m             [90m# Smoketest.click_on_SelectARole_dropdown_and_select_EU_Transaction_Quotes_GTS_Opportunity_Owner_ZZ()[0m
+    [32mAnd [0m[32mClick on Start button[0m                                                                               [90m# Smoketest.Click_on_Start_button()[0m
+    [32mThen [0m[32mHome page should open[0m                                                                              [90m# Smoketest.Home_page_should_open()[0m
+    [32mAnd [0m[32mClick on Create quote button[0m                                                                        [90m# Smoketest.Click_on_Create_quote_button()[0m
+    [32mThen [0m[32mNew quote page should open for prod rw EMEA[0m                                                        [90m# Smoketest.new_quote_page_should_open_for_prod_rw_EMEA()[0m
+    [32mThen [0m[32mEnter QuoteTitle OppID OppOwnerName[0m                                                                [90m# Smoketest.enter_QuoteTitle_OppID_OppOwnerName()[0m
+    [32mAnd [0m[32mClick on Save and Continue[0m                                                                          [90m# Smoketest.click_on_Save_and_Continue()[0m
+    [32mThen [0m[32mOn Customer information page click on Search Customer for EMEA[0m                                     [90m# Smoketest.on_Customer_information_page_click_on_Search_Customer_for_EMEA()[0m
+    [32mAnd [0m[32mClick on Save and Continue on customer tab[0m                                                          [90m# Smoketest.click_on_Save_and_Continue_on_customer_tab()[0m
+    [32mThen [0m[32mAdd product manually[0m                                                                               [90m# Smoketest.add_product_manually()[0m
+    [32mThen [0m[32mclick on collect pricing[0m                                                                           [90m# Smoketest.click_on_collect_pricing()[0m
+    [32mAnd [0m[32mClick on Save and Continue on Configuration tab[0m                                                     [90m# Smoketest.click_on_Save_and_Continue_on_Configuration_tab()[0m
+    [32mThen [0m[32mInside Copra tab close the pop up and click on prices tab[0m                                          [90m# Smoketest.inside_Copra_tab_close_the_pop_up_and_click_on_prices_tab()[0m
+    [32mThen [0m[32mClick on Request Approval and send the quote for approval for EMEA with COPRA failing error pop up[0m [90m# Smoketest.click_on_Request_Approval_and_send_the_quote_for_approval_for_EMEA_with_COPRA_failing_error_pop_up()[0m
+    [32mThen [0m[32mVerify the status of the quote[0m                                                                     [90m# Smoketest.verify_the_status_of_the_quote()[0m
+    [32mThen [0m[32mclose the window[0m                                                                                   [90m# Smoketest.close_the_window()[0m
+    [32mWhen [0m[32mClick on Prod Rewrite GUI link[0m                                                                     [90m# Smoketest.click_on_Prod_Rewrite_GUI_link()[0m
+    [32mThen [0m[32mGUI home page should open[0m                                                                          [90m# Smoketest.GUI_home_page_should_open()[0m
+    [32mAnd [0m[32mClick on SelectARole dropdown and select TRPR-EU Pricer ZZ-Dummy-France[0m                             [90m# Smoketest.click_on_SelectARole_dropdown_and_select_TRPREU_Pricer_ZZ_Dummy_France()[0m
+    [32mAnd [0m[32mClick on Start button[0m                                                                               [90m# Smoketest.Click_on_Start_button()[0m
+    [32mAnd [0m[32mSearch for the quoteID from excel sheet for EMEA prod rw[0m                                            [90m# Smoketest.search_for_the_quoteID_from_excel_sheet_for_EMEA_prod_rw()[0m
+    [32mThen [0m[32mClick on Reviwer tab and add a reviwer[0m                                                             [90m# Smoketest.click_on_Reviwer_tab_and_add_a_reviwer()[0m
+    [32mThen [0m[32mClick on pricing tab[0m                                                                               [90m# Smoketest.click_on_pricing_tab()[0m
+    [32mThen [0m[32mApprove the quote using Approval tab for EMEA with error pop up[0m                                    [90m# Smoketest.approve_the_quote_using_Approval_tab_for_EMEA_with_error_pop_up()[0m
+    [32mAnd [0m[32mVerify the quote status and check the reports[0m                                                       [90m# Smoketest.verify_the_quote_status_and_check_the_reports()[0m
+    [32mThen [0m[32mNavigate to COPRA screen and mark as COPRA PRICED[0m                                                  [90m# Smoketest.Navigate_to_COPRA_screen_and_mark_as_COPRA_PRICED()[0m
+Feature: Verify LA geo in production
+
+  @ProdSanityLA
+  Scenario: Test production IBM GUI flow for LA                           [90m# ProdRWTestcase_LA.feature:4[0m
+    [32mGiven [0m[32mClick on Prod Rewrite GUI link[0m                                  [90m# Smoketest.click_on_Prod_Rewrite_GUI_link()[0m
+    [32mThen [0m[32mGUI home page should open[0m                                        [90m# Smoketest.GUI_home_page_should_open()[0m
+    [32mAnd [0m[32mDUMMY Y[0m[32m[1m1[0m[32m Transaction Quotes Profit Opportunity Owner[0m              [90m# Smoketest.dummy_Y_Transaction_Quotes_Profit_Opportunity_Owner(int)[0m
+    [32mAnd [0m[32mClick on Start button[0m                                             [90m# Smoketest.Click_on_Start_button()[0m
+    [32mThen [0m[32mHome page should open[0m                                            [90m# Smoketest.Home_page_should_open()[0m
+    [32mAnd [0m[32mClick on Create quote button[0m                                      [90m# Smoketest.Click_on_Create_quote_button()[0m
+    [32mThen [0m[32mNew quote page should open for prod rw LA[0m                        [90m# Smoketest.new_quote_page_should_open_for_prod_rw_LA()[0m
+    [32mThen [0m[32mEnter QuoteTitle OppID OppOwnerName for AP /LA[0m                   [90m# Smoketest.enter_QuoteTitle_OppID_OppOwnerNameAPLA()[0m
+    [32mAnd [0m[32mClick on Save and Continue[0m                                        [90m# Smoketest.click_on_Save_and_Continue()[0m
+    [32mThen [0m[32mOn Customer information page click on Add a new Customer[0m         [90m# Smoketest.on_Customer_information_page_click_on_Add_a_new_Customer()[0m
+    [32mThen [0m[32mEnter customer name[0m                                              [90m# Smoketest.enter_customer_name()[0m
+    [32mAnd [0m[32mClick on Save and Continue on customer tab[0m                        [90m# Smoketest.click_on_Save_and_Continue_on_customer_tab()[0m
+    [32mThen [0m[32mAdd product manually[0m                                             [90m# Smoketest.add_product_manually()[0m
+    [32mThen [0m[32mclick on collect pricing[0m                                         [90m# Smoketest.click_on_collect_pricing()[0m
+    [32mAnd [0m[32mClick on Save and Continue on Configuration tab[0m                   [90m# Smoketest.click_on_Save_and_Continue_on_Configuration_tab()[0m
+    [32mThen [0m[32mClick on Request Approval and send the quote for approval for LA[0m [90m# Smoketest.click_on_Request_Approval_and_send_the_quote_for_approval_for_LA()[0m
+    [32mThen [0m[32mVerify the status of the quote[0m                                   [90m# Smoketest.verify_the_status_of_the_quote()[0m
+    [32mThen [0m[32mApprove the quote using Approval tab[0m                             [90m# Smoketest.approve_the_quote_using_Approval_tab()[0m
+    [32mAnd [0m[32mVerify the quote status and check the reports[0m                     [90m# Smoketest.verify_the_quote_status_and_check_the_reports()[0m
+Feature: Verify NA geo in production
+
+  @ProdSanityNA
+  Scenario: Test production IBM GUI flow for NA                       [90m# ProdRWTestcase_NA.feature:4[0m
+    [32mGiven [0m[32mClick on Prod Rewrite GUI link[0m                              [90m# Smoketest.click_on_Prod_Rewrite_GUI_link()[0m
+    [32mThen [0m[32mGUI home page should open[0m                                    [90m# Smoketest.GUI_home_page_should_open()[0m
+    [32mAnd [0m[32mClick on SelectARole dropdown and select X[0m[32m[1m1[0m[32m Channel Pricer[0m    [90m# Smoketest.click_on_SelectARole_dropdown_and_select_X_Channel_Pricer(int)[0m
+    [32mAnd [0m[32mClick on Start button[0m                                         [90m# Smoketest.Click_on_Start_button()[0m
+    [32mThen [0m[32mHome page should open[0m                                        [90m# Smoketest.Home_page_should_open()[0m
+    [32mAnd [0m[32mClick on Create quote button[0m                                  [90m# Smoketest.Click_on_Create_quote_button()[0m
+    [32mThen [0m[32mNew quote page should open for prod rw NA[0m                    [90m# Smoketest.new_quote_page_should_open_for_prod_rw_NA()[0m
+    [32mThen [0m[32mEnter QuoteTitle OppID OppOwnerName[0m                          [90m# Smoketest.enter_QuoteTitle_OppID_OppOwnerName()[0m
+    [32mAnd [0m[32mClick on Save and Continue[0m                                    [90m# Smoketest.click_on_Save_and_Continue()[0m
+    [31mThen [0m[31mOn Customer information page click on Search Customer for NA[0m [90m# Smoketest.on_Customer_information_page_click_on_Search_Customer_for_NA()[0m
+      [31morg.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Command duration or timeout: 15.06 seconds
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+      Session ID: b21fbb5d-3142-4aac-b578-2ed7efa87952
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+      	at StepDef.Smoketest.on_Customer_information_page_click_on_Search_Customer_for_NA(Smoketest.java:523)
+      	at ✽.Then On Customer information page click on Search Customer for NA(ProdRWTestcase_NA.feature:15)
+      Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+      Driver info: driver.version: unknown
+      	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+      	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+      	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+      	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+      [0m
+    [36mAnd [0m[36mClick on Save and Continue on customer tab[0m                    [90m# Smoketest.click_on_Save_and_Continue_on_customer_tab()[0m
+    [36mThen [0m[36mAdd product manually[0m                                         [90m# Smoketest.add_product_manually()[0m
+    [36mThen [0m[36mclick on collect pricing[0m                                     [90m# Smoketest.click_on_collect_pricing()[0m
+    [36mAnd [0m[36mClick on Save and Continue on Configuration tab[0m               [90m# Smoketest.click_on_Save_and_Continue_on_Configuration_tab()[0m
+    [36mThen [0m[36mClick on Request Approval and send the quote for approval[0m    [90m# Smoketest.click_on_Request_Approval_and_send_the_quote_for_approval()[0m
+    [36mThen [0m[36mVerify the status of the quote[0m                               [90m# Smoketest.verify_the_status_of_the_quote()[0m
+    [36mThen [0m[36mApprove the quote using Approval tab[0m                         [90m# Smoketest.approve_the_quote_using_Approval_tab()[0m
+    [36mAnd [0m[36mVerify the quote status and check the reports[0m                 [90m# Smoketest.verify_the_quote_status_and_check_the_reports()[0m
+    [36mThen [0m[36mNavigate to COPRA screen for NA[0m                              [90m# Smoketest.Navigate_to_COPRA_screen_for_NA()[0m
+Feature: Send excel sheet
+
+  @SendExcel
+  Scenario: Send quote id's   [90m# SendExcel.feature:4[0m
+    [32mGiven [0m[32mSend excel in email[0m [90m# Smoketest.send_excel_in_email()[0m

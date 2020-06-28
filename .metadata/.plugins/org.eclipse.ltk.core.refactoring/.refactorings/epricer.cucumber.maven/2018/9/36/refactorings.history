@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;epricer.cucumber.maven/8335GTG_New_France_2.cfr&apos; to &apos;TSS.cfr&apos;" description="Rename resource &apos;8335GTG_New_France_2.cfr&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="8335GTG_New_France_2.cfr" name="TSS.cfr" stamp="1536237759612" updateReferences="true"/>
+</session>

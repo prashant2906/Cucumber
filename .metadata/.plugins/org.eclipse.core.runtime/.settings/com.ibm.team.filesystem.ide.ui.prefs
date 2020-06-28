@@ -1,0 +1,6 @@
+com.ibm.team.filesystem.internal.rcp.ui.workitems.workflows.CommonReviewPage/MruComments/value0=Verification
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value0=Password change 
+com.ibm.team.filesystem.ui.changes.RenameChangeSetUtil/MruComments/value1=Changed TSS CFR and customer number 
+eclipse.preferences.version=1
+external_compare_tool_policy=never
+previous_ignore_patterns=\#*\n*$\n*.BAK\n*.Z\n*.bak\n*.dylib\n*.elc\n*.ln\n*.log\n*.o\n*.obj\n*.olb\n*.old\n*.orig\n*.rej\n*/.git/*\n*~\n,*\n.\#*\n.DS_Store\n.del-*\n.deployables\n.git\n.make.state\n.nse_depinfo\nCVS.adm\nRCS\nRCSLOG\nSCCS\n_$*\n

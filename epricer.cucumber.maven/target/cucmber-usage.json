@@ -1,0 +1,944 @@
+[
+  {
+    "source": "^On Customer information page click on Add a new Customer$",
+    "steps": [
+      {
+        "name": "On Customer information page click on Add a new Customer",
+        "aggregatedDurations": {
+          "median": 6.410648211,
+          "average": 6.410648211
+        },
+        "durations": [
+          {
+            "duration": 6.392244787,
+            "location": "ProdRWTestcase_AP.feature:15"
+          },
+          {
+            "duration": 6.429051636,
+            "location": "ProdRWTestcase_LA.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on SelectARole dropdown and select TROOPPRV(\\d+)-AP OO on profit plan \\(V(\\d+)-Dummy-Singapore\\)$",
+    "steps": [
+      {
+        "name": "Click on SelectARole dropdown and select TROOPPRV1-AP OO on profit plan (V1-Dummy-Singapore)",
+        "aggregatedDurations": {
+          "median": 0.240897351,
+          "average": 0.240897351
+        },
+        "durations": [
+          {
+            "duration": 0.240897351,
+            "location": "ProdRWTestcase_AP.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^GUI home page should open$",
+    "steps": [
+      {
+        "name": "GUI home page should open",
+        "aggregatedDurations": {
+          "median": 0.039019481,
+          "average": 0.043681173
+        },
+        "durations": [
+          {
+            "duration": 0.07695373,
+            "location": "ProdRWTestcase_AP.feature:7"
+          },
+          {
+            "duration": 0.038536437,
+            "location": "ProdRWTestcase_AP.feature:25"
+          },
+          {
+            "duration": 0.032660032,
+            "location": "ProdRWTestcase_EMEA.feature:7"
+          },
+          {
+            "duration": 0.033744371,
+            "location": "ProdRWTestcase_EMEA.feature:25"
+          },
+          {
+            "duration": 0.039502525,
+            "location": "ProdRWTestcase_LA.feature:7"
+          },
+          {
+            "duration": 0.040689943,
+            "location": "ProdRWTestcase_NA.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Inside Copra tab close the pop up and click on prices tab$",
+    "steps": [
+      {
+        "name": "Inside Copra tab close the pop up and click on prices tab",
+        "aggregatedDurations": {
+          "median": 6.99989826,
+          "average": 6.99989826
+        },
+        "durations": [
+          {
+            "duration": 6.99989826,
+            "location": "ProdRWTestcase_EMEA.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify the quote status and check the reports$",
+    "steps": [
+      {
+        "name": "Verify the quote status and check the reports",
+        "aggregatedDurations": {
+          "median": 37.661726973,
+          "average": 37.661726973
+        },
+        "durations": [
+          {
+            "duration": 37.664865979,
+            "location": "ProdRWTestcase_EMEA.feature:32"
+          },
+          {
+            "duration": 37.658587967,
+            "location": "ProdRWTestcase_LA.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Prod rw PCS page should open$",
+    "steps": [
+      {
+        "name": "Prod rw PCS page should open",
+        "aggregatedDurations": {
+          "median": 0.985111084,
+          "average": 0.985111084
+        },
+        "durations": [
+          {
+            "duration": 0.985111084,
+            "location": "ProdRWTestcase_BP_PCS_NA_SB.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^New quote page should open for prod rw LA$",
+    "steps": [
+      {
+        "name": "New quote page should open for prod rw LA",
+        "aggregatedDurations": {
+          "median": 0.305362437,
+          "average": 0.305362437
+        },
+        "durations": [
+          {
+            "duration": 0.305362437,
+            "location": "ProdRWTestcase_LA.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^New quote page should open for prod rw AP$",
+    "steps": [
+      {
+        "name": "New quote page should open for prod rw AP",
+        "aggregatedDurations": {
+          "median": 1.141283162,
+          "average": 1.141283162
+        },
+        "durations": [
+          {
+            "duration": 1.141283162,
+            "location": "ProdRWTestcase_AP.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Add product manually$",
+    "steps": [
+      {
+        "name": "Add product manually",
+        "aggregatedDurations": {
+          "median": 21.051809998,
+          "average": 21.130781134
+        },
+        "durations": [
+          {
+            "duration": 23.256642136,
+            "location": "ProdRWTestcase_AP.feature:18"
+          },
+          {
+            "duration": 19.083891269,
+            "location": "ProdRWTestcase_EMEA.feature:17"
+          },
+          {
+            "duration": 21.051809998,
+            "location": "ProdRWTestcase_LA.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Prod Rewrite GUI link$",
+    "steps": [
+      {
+        "name": "Click on Prod Rewrite GUI link",
+        "aggregatedDurations": {
+          "median": 97.198057471,
+          "average": 113.699610946
+        },
+        "durations": [
+          {
+            "duration": 40.728597909,
+            "location": "ProdRWTestcase_AP.feature:6"
+          },
+          {
+            "duration": 143.261074986,
+            "location": "ProdRWTestcase_AP.feature:24"
+          },
+          {
+            "duration": 89.587150535,
+            "location": "ProdRWTestcase_EMEA.feature:6"
+          },
+          {
+            "duration": 104.808964407,
+            "location": "ProdRWTestcase_EMEA.feature:24"
+          },
+          {
+            "duration": 80.75913567,
+            "location": "ProdRWTestcase_LA.feature:6"
+          },
+          {
+            "duration": 223.052742174,
+            "location": "ProdRWTestcase_NA.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Approve the quote using Approval tab for AP$",
+    "steps": [
+      {
+        "name": "Approve the quote using Approval tab for AP",
+        "aggregatedDurations": {
+          "median": 30.749262381,
+          "average": 30.749262381
+        },
+        "durations": [
+          {
+            "duration": 30.749262381,
+            "location": "ProdRWTestcase_AP.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Send excel in email$",
+    "steps": [
+      {
+        "name": "Send excel in email",
+        "aggregatedDurations": {
+          "median": 0.015830907,
+          "average": 0.015830907
+        },
+        "durations": [
+          {
+            "duration": 0.015830907,
+            "location": "SendExcel.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^DUMMY Y(\\d+) Transaction Quotes Profit Opportunity Owner$",
+    "steps": [
+      {
+        "name": "DUMMY Y1 Transaction Quotes Profit Opportunity Owner",
+        "aggregatedDurations": {
+          "median": 0.284316884,
+          "average": 0.284316884
+        },
+        "durations": [
+          {
+            "duration": 0.284316884,
+            "location": "ProdRWTestcase_LA.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Search for the quoteID from excel sheet for EMEA prod rw$",
+    "steps": [
+      {
+        "name": "Search for the quoteID from excel sheet for EMEA prod rw",
+        "aggregatedDurations": {
+          "median": 23.158792787,
+          "average": 23.158792787
+        },
+        "durations": [
+          {
+            "duration": 23.158792787,
+            "location": "ProdRWTestcase_EMEA.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Request Approval and send the quote for approval for EMEA with COPRA failing error pop up$",
+    "steps": [
+      {
+        "name": "Click on Request Approval and send the quote for approval for EMEA with COPRA failing error pop up",
+        "aggregatedDurations": {
+          "median": 34.92417211,
+          "average": 34.92417211
+        },
+        "durations": [
+          {
+            "duration": 34.92417211,
+            "location": "ProdRWTestcase_EMEA.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Approve the quote using Approval tab$",
+    "steps": [
+      {
+        "name": "Approve the quote using Approval tab",
+        "aggregatedDurations": {
+          "median": 28.890582134,
+          "average": 28.890582134
+        },
+        "durations": [
+          {
+            "duration": 28.890582134,
+            "location": "ProdRWTestcase_LA.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Search for the quoteID from excel sheet for AP prod rw$",
+    "steps": [
+      {
+        "name": "Search for the quoteID from excel sheet for AP prod rw",
+        "aggregatedDurations": {
+          "median": 25.773293214,
+          "average": 25.773293214
+        },
+        "durations": [
+          {
+            "duration": 25.773293214,
+            "location": "ProdRWTestcase_AP.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Request Approval and send the quote for approval for LA$",
+    "steps": [
+      {
+        "name": "Click on Request Approval and send the quote for approval for LA",
+        "aggregatedDurations": {
+          "median": 38.020955861,
+          "average": 38.020955861
+        },
+        "durations": [
+          {
+            "duration": 38.020955861,
+            "location": "ProdRWTestcase_LA.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on pricing tab$",
+    "steps": [
+      {
+        "name": "Click on pricing tab",
+        "aggregatedDurations": {
+          "median": 2.290726981,
+          "average": 2.290726981
+        },
+        "durations": [
+          {
+            "duration": 2.262606449,
+            "location": "ProdRWTestcase_AP.feature:30"
+          },
+          {
+            "duration": 2.318847513,
+            "location": "ProdRWTestcase_EMEA.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on collect pricing$",
+    "steps": [
+      {
+        "name": "click on collect pricing",
+        "aggregatedDurations": {
+          "median": 38.467111945,
+          "average": 38.426837293
+        },
+        "durations": [
+          {
+            "duration": 38.314108102,
+            "location": "ProdRWTestcase_AP.feature:19"
+          },
+          {
+            "duration": 38.467111945,
+            "location": "ProdRWTestcase_EMEA.feature:18"
+          },
+          {
+            "duration": 38.499291833,
+            "location": "ProdRWTestcase_LA.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on PCS Prod rw link$",
+    "steps": [
+      {
+        "name": "Click on PCS Prod rw link",
+        "aggregatedDurations": {
+          "median": 39.395270675,
+          "average": 39.395270675
+        },
+        "durations": [
+          {
+            "duration": 39.395270675,
+            "location": "ProdRWTestcase_BP_PCS_NA_SB.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on SelectARole dropdown and select X(\\d+) Channel Pricer$",
+    "steps": [
+      {
+        "name": "Click on SelectARole dropdown and select X1 Channel Pricer",
+        "aggregatedDurations": {
+          "median": 0.283312867,
+          "average": 0.283312867
+        },
+        "durations": [
+          {
+            "duration": 0.283312867,
+            "location": "ProdRWTestcase_NA.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^New quote page should open for prod rw NA$",
+    "steps": [
+      {
+        "name": "New quote page should open for prod rw NA",
+        "aggregatedDurations": {
+          "median": 1.249388219,
+          "average": 1.249388219
+        },
+        "durations": [
+          {
+            "duration": 1.249388219,
+            "location": "ProdRWTestcase_NA.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close the window$",
+    "steps": [
+      {
+        "name": "close the window",
+        "aggregatedDurations": {
+          "median": 1.013893153,
+          "average": 1.013893153
+        },
+        "durations": [
+          {
+            "duration": 1.012236077,
+            "location": "ProdRWTestcase_AP.feature:23"
+          },
+          {
+            "duration": 1.015550229,
+            "location": "ProdRWTestcase_EMEA.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Create quote button$",
+    "steps": [
+      {
+        "name": "Click on Create quote button",
+        "aggregatedDurations": {
+          "median": 6.187261602,
+          "average": 6.184567375
+        },
+        "durations": [
+          {
+            "duration": 6.18251706,
+            "location": "ProdRWTestcase_AP.feature:11"
+          },
+          {
+            "duration": 6.15765847,
+            "location": "ProdRWTestcase_EMEA.feature:11"
+          },
+          {
+            "duration": 6.192006144,
+            "location": "ProdRWTestcase_LA.feature:11"
+          },
+          {
+            "duration": 6.206087829,
+            "location": "ProdRWTestcase_NA.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on SelectARole dropdown and select TRPR-EU Pricer ZZ-Dummy-France$",
+    "steps": [
+      {
+        "name": "Click on SelectARole dropdown and select TRPR-EU Pricer ZZ-Dummy-France",
+        "aggregatedDurations": {
+          "median": 0.27104243,
+          "average": 0.27104243
+        },
+        "durations": [
+          {
+            "duration": 0.27104243,
+            "location": "ProdRWTestcase_EMEA.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Save and Continue on Configuration tab$",
+    "steps": [
+      {
+        "name": "Click on Save and Continue on Configuration tab",
+        "aggregatedDurations": {
+          "median": 9.194775002,
+          "average": 9.194677426
+        },
+        "durations": [
+          {
+            "duration": 9.194775002,
+            "location": "ProdRWTestcase_AP.feature:20"
+          },
+          {
+            "duration": 9.19842918,
+            "location": "ProdRWTestcase_EMEA.feature:19"
+          },
+          {
+            "duration": 9.190828096,
+            "location": "ProdRWTestcase_LA.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Save and Continue$",
+    "steps": [
+      {
+        "name": "Click on Save and Continue",
+        "aggregatedDurations": {
+          "median": 5.268569198,
+          "average": 5.265537845
+        },
+        "durations": [
+          {
+            "duration": 5.28317275,
+            "location": "ProdRWTestcase_AP.feature:14"
+          },
+          {
+            "duration": 5.260096404,
+            "location": "ProdRWTestcase_EMEA.feature:14"
+          },
+          {
+            "duration": 5.277041993,
+            "location": "ProdRWTestcase_LA.feature:14"
+          },
+          {
+            "duration": 5.241840236,
+            "location": "ProdRWTestcase_NA.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Approve the quote using Approval tab for EMEA with error pop up$",
+    "steps": [
+      {
+        "name": "Approve the quote using Approval tab for EMEA with error pop up",
+        "aggregatedDurations": {
+          "median": 39.21943368,
+          "average": 39.21943368
+        },
+        "durations": [
+          {
+            "duration": 39.21943368,
+            "location": "ProdRWTestcase_EMEA.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter QuoteTitle OppID OppOwnerName for AP /LA$",
+    "steps": [
+      {
+        "name": "Enter QuoteTitle OppID OppOwnerName for AP /LA",
+        "aggregatedDurations": {
+          "median": 6.846073799,
+          "average": 6.846073799
+        },
+        "durations": [
+          {
+            "duration": 6.680442535,
+            "location": "ProdRWTestcase_AP.feature:13"
+          },
+          {
+            "duration": 7.011705063,
+            "location": "ProdRWTestcase_LA.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter QuoteTitle OppID OppOwnerName$",
+    "steps": [
+      {
+        "name": "Enter QuoteTitle OppID OppOwnerName",
+        "aggregatedDurations": {
+          "median": 7.085627551,
+          "average": 7.085627551
+        },
+        "durations": [
+          {
+            "duration": 7.167714712,
+            "location": "ProdRWTestcase_EMEA.feature:13"
+          },
+          {
+            "duration": 7.00354039,
+            "location": "ProdRWTestcase_NA.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter customer name$",
+    "steps": [
+      {
+        "name": "Enter customer name",
+        "aggregatedDurations": {
+          "median": 3.342271695,
+          "average": 3.342271695
+        },
+        "durations": [
+          {
+            "duration": 3.23356579,
+            "location": "ProdRWTestcase_AP.feature:16"
+          },
+          {
+            "duration": 3.450977601,
+            "location": "ProdRWTestcase_LA.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Reviwer tab and add a reviwer$",
+    "steps": [
+      {
+        "name": "Click on Reviwer tab and add a reviwer",
+        "aggregatedDurations": {
+          "median": 22.254587469,
+          "average": 22.254587469
+        },
+        "durations": [
+          {
+            "duration": 22.070965321,
+            "location": "ProdRWTestcase_AP.feature:29"
+          },
+          {
+            "duration": 22.438209618,
+            "location": "ProdRWTestcase_EMEA.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^On Customer information page click on Search Customer for EMEA$",
+    "steps": [
+      {
+        "name": "On Customer information page click on Search Customer for EMEA",
+        "aggregatedDurations": {
+          "median": 17.072563271,
+          "average": 17.072563271
+        },
+        "durations": [
+          {
+            "duration": 17.072563271,
+            "location": "ProdRWTestcase_EMEA.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify the status of the quote$",
+    "steps": [
+      {
+        "name": "Verify the status of the quote",
+        "aggregatedDurations": {
+          "median": 2.096513782,
+          "average": 2.087914927
+        },
+        "durations": [
+          {
+            "duration": 2.098838195,
+            "location": "ProdRWTestcase_AP.feature:22"
+          },
+          {
+            "duration": 2.068392804,
+            "location": "ProdRWTestcase_EMEA.feature:22"
+          },
+          {
+            "duration": 2.096513782,
+            "location": "ProdRWTestcase_LA.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^New quote page should open for prod rw EMEA$",
+    "steps": [
+      {
+        "name": "New quote page should open for prod rw EMEA",
+        "aggregatedDurations": {
+          "median": 0.96121903,
+          "average": 0.96121903
+        },
+        "durations": [
+          {
+            "duration": 0.96121903,
+            "location": "ProdRWTestcase_EMEA.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Navigate to COPRA screen and mark as COPRA PRICED$",
+    "steps": [
+      {
+        "name": "Navigate to COPRA screen and mark as COPRA PRICED",
+        "aggregatedDurations": {
+          "median": 11.251770641,
+          "average": 11.251770641
+        },
+        "durations": [
+          {
+            "duration": 11.251770641,
+            "location": "ProdRWTestcase_EMEA.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on SelectARole dropdown and select TRPRV(\\d+)-AP Pricer \\(V(\\d+)-Dummy-Singapore\\)$",
+    "steps": [
+      {
+        "name": "Click on SelectARole dropdown and select TRPRV1-AP Pricer (V1-Dummy-Singapore)",
+        "aggregatedDurations": {
+          "median": 0.332660121,
+          "average": 0.332660121
+        },
+        "durations": [
+          {
+            "duration": 0.332660121,
+            "location": "ProdRWTestcase_AP.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Start button$",
+    "steps": [
+      {
+        "name": "Click on Start button",
+        "aggregatedDurations": {
+          "median": 1.201533827,
+          "average": 1.645135169
+        },
+        "durations": [
+          {
+            "duration": 1.351752524,
+            "location": "ProdRWTestcase_AP.feature:9"
+          },
+          {
+            "duration": 3.789668076,
+            "location": "ProdRWTestcase_AP.feature:27"
+          },
+          {
+            "duration": 1.158578596,
+            "location": "ProdRWTestcase_EMEA.feature:9"
+          },
+          {
+            "duration": 1.177068143,
+            "location": "ProdRWTestcase_EMEA.feature:27"
+          },
+          {
+            "duration": 1.167744164,
+            "location": "ProdRWTestcase_LA.feature:9"
+          },
+          {
+            "duration": 1.225999511,
+            "location": "ProdRWTestcase_NA.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Request Approval and send the quote for approval$",
+    "steps": [
+      {
+        "name": "Click on Request Approval and send the quote for approval",
+        "aggregatedDurations": {
+          "median": 30.226552391,
+          "average": 30.226552391
+        },
+        "durations": [
+          {
+            "duration": 30.226552391,
+            "location": "ProdRWTestcase_AP.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on SelectARole dropdown and select EU Transaction Quotes GTS Opportunity Owner ZZ$",
+    "steps": [
+      {
+        "name": "Click on SelectARole dropdown and select EU Transaction Quotes GTS Opportunity Owner ZZ",
+        "aggregatedDurations": {
+          "median": 0.282384261,
+          "average": 0.282384261
+        },
+        "durations": [
+          {
+            "duration": 0.282384261,
+            "location": "ProdRWTestcase_EMEA.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Save and Continue on customer tab$",
+    "steps": [
+      {
+        "name": "Click on Save and Continue on customer tab",
+        "aggregatedDurations": {
+          "median": 5.321611908,
+          "average": 5.890984038
+        },
+        "durations": [
+          {
+            "duration": 5.321611908,
+            "location": "ProdRWTestcase_AP.feature:17"
+          },
+          {
+            "duration": 7.045788569,
+            "location": "ProdRWTestcase_EMEA.feature:16"
+          },
+          {
+            "duration": 5.305551639,
+            "location": "ProdRWTestcase_LA.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Home page should open$",
+    "steps": [
+      {
+        "name": "Home page should open",
+        "aggregatedDurations": {
+          "median": 6.803387645,
+          "average": 13.182487273
+        },
+        "durations": [
+          {
+            "duration": 4.503130751,
+            "location": "ProdRWTestcase_AP.feature:10"
+          },
+          {
+            "duration": 6.405025265,
+            "location": "ProdRWTestcase_EMEA.feature:10"
+          },
+          {
+            "duration": 7.201750026,
+            "location": "ProdRWTestcase_LA.feature:10"
+          },
+          {
+            "duration": 34.620043053,
+            "location": "ProdRWTestcase_NA.feature:10"
+          }
+        ]
+      }
+    ]
+  }
+]

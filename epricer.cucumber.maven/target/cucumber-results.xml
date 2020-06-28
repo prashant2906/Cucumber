@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="1722.356978">
+<testcase classname="Verify AP geo in production" name="Test production IBM GUI flow for AP" time="437.265887">
+<failure message="org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 23 milliseconds&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'&#10;Session ID: b9feaf3e-472b-419a-ab49-e9dd496e439d&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)&#13;&#10;&#9;at StepDef.Smoketest.verify_the_quote_status_and_check_the_reports(Smoketest.java:1013)&#13;&#10;&#9;at ✽.And Verify the quote status and check the reports(ProdRWTestcase_AP.feature:32)&#13;&#10;Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)&#13;&#10;"><![CDATA[Given Click on Prod Rewrite GUI link........................................passed
+Then GUI home page should open..............................................passed
+And Click on SelectARole dropdown and select TROOPPRV1-AP OO on profit plan (V1-Dummy-Singapore).passed
+And Click on Start button...................................................passed
+Then Home page should open..................................................passed
+And Click on Create quote button............................................passed
+Then New quote page should open for prod rw AP..............................passed
+Then Enter QuoteTitle OppID OppOwnerName for AP /LA.........................passed
+And Click on Save and Continue..............................................passed
+Then On Customer information page click on Add a new Customer...............passed
+Then Enter customer name....................................................passed
+And Click on Save and Continue on customer tab..............................passed
+Then Add product manually...................................................passed
+Then click on collect pricing...............................................passed
+And Click on Save and Continue on Configuration tab.........................passed
+Then Click on Request Approval and send the quote for approval..............passed
+Then Verify the status of the quote.........................................passed
+Then close the window.......................................................passed
+When Click on Prod Rewrite GUI link.........................................passed
+Then GUI home page should open..............................................passed
+And Click on SelectARole dropdown and select TRPRV1-AP Pricer (V1-Dummy-Singapore).passed
+And Click on Start button...................................................passed
+And Search for the quoteID from excel sheet for AP prod rw..................passed
+Then Click on Reviwer tab and add a reviwer.................................passed
+Then Click on pricing tab...................................................passed
+Then Approve the quote using Approval tab for AP............................passed
+And Verify the quote status and check the reports...........................failed
+
+StackTrace:
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 23 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: b9feaf3e-472b-419a-ab49-e9dd496e439d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at StepDef.Smoketest.verify_the_quote_status_and_check_the_reports(Smoketest.java:1013)
+	at ✽.And Verify the quote status and check the reports(ProdRWTestcase_AP.feature:32)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2195514971103781038webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]></failure>
+</testcase>
+<testcase classname="Verify BP PCS-NA SB in production" name="Test production NA BP PCS_SB flow" time="185.346722">
+<failure message="org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.): To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'&#10;*** Element info: {Using=css selector, value=select[name='SelectARole']}&#10;Session ID: 1cc29ed7-8204-4f74-9a10-ece8983530bf&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)&#13;&#10;&#9;at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)&#13;&#10;&#9;at StepDef.Smoketest.Enter_all_the_details_to_rediect_to_IBM_PCS_page(Smoketest.java:2364)&#13;&#10;&#9;at ✽.Then Enter all the details to rediect to IBM PCS page(ProdRWTestcase_BP_PCS_NA_SB.feature:8)&#13;&#10;"><![CDATA[Given Click on PCS Prod rw link.............................................passed
+Then Prod rw PCS page should open...........................................passed
+Then Enter all the details to rediect to IBM PCS page.......................failed
+Then GUI home page should open..............................................skipped
+And Click on SelectARole dropdown and select SP1 Maint - COV TR X1..........skipped
+And Click on Start button...................................................skipped
+Then Home page should open..................................................skipped
+And Click on Create quote button............................................skipped
+Then In Overview tab enter the required details_SB..........................skipped
+And Click on Save and Continue..............................................skipped
+Then Add product manually for PCS...........................................skipped
+Then click on collect pricing for PCS.......................................skipped
+Then fill details inside Registration and customer tab for PCS..............skipped
+Then in Details pricing tab click on Submit price request...................skipped
+Then inside submit and send popup enter email id and send email.............skipped
+Then close the window.......................................................skipped
+When Click on Prod Rewrite GUI link.........................................skipped
+Then GUI home page should open..............................................skipped
+And Click on SelectARole dropdown and select X1 Channel Pricer..............skipped
+And Click on Start button...................................................skipped
+And Search for the quoteID from excel sheet for PCS NA BP prod rw...........skipped
+Then Click on comments and status and remove the quote from on hold status..skipped
+Then Click on pricing tab and approve the quote.............................skipped
+Then verify reports for BP..................................................skipped
+
+StackTrace:
+org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.): To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=css selector, value=select[name='SelectARole']}
+Session ID: 1cc29ed7-8204-4f74-9a10-ece8983530bf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at StepDef.Smoketest.Enter_all_the_details_to_rediect_to_IBM_PCS_page(Smoketest.java:2364)
+	at ✽.Then Enter all the details to rediect to IBM PCS page(ProdRWTestcase_BP_PCS_NA_SB.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Verify EMEA geo in production" name="Test production IBM GUI flow for EMEA" time="495.381595">
+<system-out><![CDATA[Given Click on Prod Rewrite GUI link........................................passed
+Then GUI home page should open..............................................passed
+And Click on SelectARole dropdown and select EU Transaction Quotes GTS Opportunity Owner ZZ.passed
+And Click on Start button...................................................passed
+Then Home page should open..................................................passed
+And Click on Create quote button............................................passed
+Then New quote page should open for prod rw EMEA............................passed
+Then Enter QuoteTitle OppID OppOwnerName....................................passed
+And Click on Save and Continue..............................................passed
+Then On Customer information page click on Search Customer for EMEA.........passed
+And Click on Save and Continue on customer tab..............................passed
+Then Add product manually...................................................passed
+Then click on collect pricing...............................................passed
+And Click on Save and Continue on Configuration tab.........................passed
+Then Inside Copra tab close the pop up and click on prices tab..............passed
+Then Click on Request Approval and send the quote for approval for EMEA with COPRA failing error pop up.passed
+Then Verify the status of the quote.........................................passed
+Then close the window.......................................................passed
+When Click on Prod Rewrite GUI link.........................................passed
+Then GUI home page should open..............................................passed
+And Click on SelectARole dropdown and select TRPR-EU Pricer ZZ-Dummy-France.passed
+And Click on Start button...................................................passed
+And Search for the quoteID from excel sheet for EMEA prod rw................passed
+Then Click on Reviwer tab and add a reviwer.................................passed
+Then Click on pricing tab...................................................passed
+Then Approve the quote using Approval tab for EMEA with error pop up........passed
+And Verify the quote status and check the reports...........................passed
+Then Navigate to COPRA screen and mark as COPRA PRICED......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify LA geo in production" name="Test production IBM GUI flow for LA" time="298.899916">
+<system-out><![CDATA[Given Click on Prod Rewrite GUI link........................................passed
+Then GUI home page should open..............................................passed
+And DUMMY Y1 Transaction Quotes Profit Opportunity Owner....................passed
+And Click on Start button...................................................passed
+Then Home page should open..................................................passed
+And Click on Create quote button............................................passed
+Then New quote page should open for prod rw LA..............................passed
+Then Enter QuoteTitle OppID OppOwnerName for AP /LA.........................passed
+And Click on Save and Continue..............................................passed
+Then On Customer information page click on Add a new Customer...............passed
+Then Enter customer name....................................................passed
+And Click on Save and Continue on customer tab..............................passed
+Then Add product manually...................................................passed
+Then click on collect pricing...............................................passed
+And Click on Save and Continue on Configuration tab.........................passed
+Then Click on Request Approval and send the quote for approval for LA.......passed
+Then Verify the status of the quote.........................................passed
+Then Approve the quote using Approval tab...................................passed
+And Verify the quote status and check the reports...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify NA geo in production" name="Test production IBM GUI flow for NA" time="305.373055">
+<failure message="org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 15.06 seconds&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'&#10;Session ID: b21fbb5d-3142-4aac-b578-2ed7efa87952&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)&#13;&#10;&#9;at StepDef.Smoketest.on_Customer_information_page_click_on_Search_Customer_for_NA(Smoketest.java:523)&#13;&#10;&#9;at ✽.Then On Customer information page click on Search Customer for NA(ProdRWTestcase_NA.feature:15)&#13;&#10;Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)&#13;&#10;"><![CDATA[Given Click on Prod Rewrite GUI link........................................passed
+Then GUI home page should open..............................................passed
+And Click on SelectARole dropdown and select X1 Channel Pricer..............passed
+And Click on Start button...................................................passed
+Then Home page should open..................................................passed
+And Click on Create quote button............................................passed
+Then New quote page should open for prod rw NA..............................passed
+Then Enter QuoteTitle OppID OppOwnerName....................................passed
+And Click on Save and Continue..............................................passed
+Then On Customer information page click on Search Customer for NA...........failed
+And Click on Save and Continue on customer tab..............................skipped
+Then Add product manually...................................................skipped
+Then click on collect pricing...............................................skipped
+And Click on Save and Continue on Configuration tab.........................skipped
+Then Click on Request Approval and send the quote for approval..............skipped
+Then Verify the status of the quote.........................................skipped
+Then Approve the quote using Approval tab...................................skipped
+And Verify the quote status and check the reports...........................skipped
+Then Navigate to COPRA screen for NA........................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 15.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Session ID: b21fbb5d-3142-4aac-b578-2ed7efa87952
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at StepDef.Smoketest.on_Customer_information_page_click_on_Search_Customer_for_NA(Smoketest.java:523)
+	at ✽.Then On Customer information page click on Search Customer for NA(ProdRWTestcase_NA.feature:15)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'IBM638-PC073DB9', ip: '9.78.199.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous7416048896674236198webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+]]></failure>
+</testcase>
+<testcase classname="Send excel sheet" name="Send quote id's" time="0.089803">
+<system-out><![CDATA[Given Send excel in email...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
